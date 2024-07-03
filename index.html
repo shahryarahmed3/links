@@ -1,132 +1,63 @@
-<style>
-  * {
-    /* border: thin red solid; */
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
 
-  body{
-    /* background:#d0d0d0; */
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 10px ), repeating-linear-gradient( #00000055, #000000 );
-  }
+  <body>
+    <div class="content">
+      <div class="banner">
+        <img src="IMG_06821.jpg" class="banner-image">
+      </div>
 
-  .content{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    max-width: 640px;
-    flex-grow: 1;
-    background-color: #1717f8d9;
-    padding: 20px;
-  }
+      <div class="name">
+        Shahryar Ahmed
+      </div>
 
-  .banner {
-    display: flex;
-    justify-content: center;
-  }
-
-  .banner-image {
-    width: 128px;
-    height: 128px;
-    object-fit: cover;
-    border-radius: 128px;
-  }
-
-  .name {
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
-    padding: 10px;
-  }
-
-  .social-icons {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
-  }
-  
-  .social-icons a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-
-  .link {
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    border-radius: 15px;
-  }
-
-  .link a {
-    color: #001e1d;
-    text-decoration: none;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    font-size: 12pt;
-  }
-
-  .items {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 640px;
-  }
-
-  .thumbnail {
-    width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    object-fit: cover;
-  }
-
-
-</style>
-
-<body>
-  <div class="content">
-    <div class="banner">
-      <img src="IMG_06821.jpg" class="banner-image">
-    </div>
-
-    <div class="name">
-      Shahryar Ahmed
-    </div>
-
-    <div class="social-icons">
-      <a href="https://github.com/shahryarahmed3" taget="_blank">
-        GitHub
-      </a>
-      <a href="https://github.com/shahryarahmed3" taget="_blank">
-        LinkedIn
-      </a>
-      <a href="https://github.com/shahryarahmed3" taget="_blank">
-        Website
-      </a>
-    </div>
-
-
-    <div class="items">
-      <div class="link">
-        <img src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" class="thumbnail">
-        <a href="https://www.nasa.gov/news-release/nasas-boeing-test-flight-crew-to-discuss-starliner-mission-from-space/" target="+blank">
-          NASA’s Boeing Test Flight
+      <div class="social-icons">
+        <a href="https://github.com/shahryarahmed3" taget="_blank">
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+        <a href="https://github.com/shahryarahmed3" taget="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
+        </a>
+        <a href="https://github.com/shahryarahmed3" taget="_blank">
+          <i class="fa-solid fa-link"></i>
+          Website
         </a>
       </div>
 
-      <div class="link">
-        <a href="https://docs.python.org/3/" target="+blank">
-          Learn Python
-        </a>
+
+      <div class="items">
+
+
+        <div class="link">
+          <img src="./nasa.jpg" class="thumbnail">
+          <a href="https://www.nasa.gov/news-release/nasas-boeing-test-flight-crew-to-discuss-starliner-mission-from-space/" target="+blank">
+            NASA’s Boeing Test Flight
+          </a>
+        </div>
+
+        <div class="link">
+          <img src="./stock-market.jpg" class="thumbnail">
+          <a href="https://www.cnn.com/markets" target="+blank">
+            Trending Stocks
+          </a>
+        </div>
+
+        <div class="link">
+          <img src="./smartphone.jpg" class="thumbnail">
+          <a href="https://www.techradar.com/news/best-phone" target="+blank">
+            Top 10 Smartphones
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
+</html>
